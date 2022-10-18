@@ -50,7 +50,7 @@ const Pokedex = () => {
   return (
     <div>
       <header className='pokedex__header-container'>
-        <img className='pokedex__img' src="./src/assets/pokedex.png" alt="" />
+        <img className='pokedex__img' src="../public/pokedex.png" alt="" />
         <p className='pokedex__header-p'>Welcome <span className='userName'>{userName}</span>, here you can find your favorite Pokemon.</p>
       </header>
 
@@ -70,7 +70,7 @@ const Pokedex = () => {
           ))
         }
       </div>
-      <Pagination setPage={setPage} page={page} pagesLength={pokemons && Math.ceil(pokemons.length / pokePerPage)}/>
+              <Pagination setPage={setPage} page={page} pagesLength={pokemons && Math.ceil(pokemons.length / pokePerPage)}/>
 
     </div>
   )
