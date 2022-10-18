@@ -50,7 +50,7 @@ const Pokedex = () => {
   return (
     <div>
       <header className='pokedex__header-container'>
-        <img className='pokedex__img' src="../public/pokedex.png" alt="" />
+        <img className='pokedex__img' src="https://i.pinimg.com/originals/bd/cd/20/bdcd20f5411ee5785889542d303ad4cb.png" alt="" />
         <p className='pokedex__header-p'>Welcome <span className='userName'>{userName}</span>, here you can find your favorite Pokemon.</p>
       </header>
 
